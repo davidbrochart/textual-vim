@@ -1,0 +1,39 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "textual-vim"
+version = "0.1.0"
+description = "A Textual widget for a text area based on VIM"
+license = { file = "LICENSE" }
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [
+    { name = "David Brochart", email = "david.brochart@gmail.com" },
+]
+keywords = [
+    "textual",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+dependencies = [
+    "textual >=0.76.0",
+    "rich",
+    "pyte >=0.8.2",
+]
+
+[project.urls]
+Homepage = "https://github.com/davidbrochart/textual-vim"
+Source = "https://github.com/davidbrochart/textual-vim"
+Issues = "https://github.com/davidbrochart/textual-vim/issues"
+Pypi = "https://pypi.org/project/textual-vim"
